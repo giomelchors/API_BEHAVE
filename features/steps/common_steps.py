@@ -1,6 +1,6 @@
 from behave import  Given
 
-from features.pages.login import Login
+from features.pages.login_page import Login
 from features.support.configuration import EMAIL_USER, PASSWORD_USER
 
 

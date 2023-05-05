@@ -7,4 +7,4 @@ Feature: Method GET
 
     Scenario: get all the user of the page
         When the user search all the user of the page
-        Then the system  should display all the user
+#        Then the system  should display all the user

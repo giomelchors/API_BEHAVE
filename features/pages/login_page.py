@@ -11,6 +11,7 @@ class Login(Api):
             "password": password
         }
         url = utils.get_endpoint(self.LOGIN)
+        breakpoint()
         res = self.post(url, body)
         if res.status_code == 200:
             return res
